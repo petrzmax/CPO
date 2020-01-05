@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,7 +23,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -39,3 +37,12 @@ Release
 *.vbproj.user
 ipch
 *sdf
+*.suo
+*.db
+
+# Lipa files
+*.tlog
+*.log
+*.pdb
+*.iobj
+*.ipdb
