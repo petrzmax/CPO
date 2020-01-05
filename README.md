@@ -9,42 +9,41 @@ The program should be resistant to image noise, uneven lighting and a blurred im
 
 Project is set to run properly only in Release mode.
 
-Recognition steps:
+## Recognition steps:
 
-
-## 1. Load color image
+### 1. Load color image
 
 ![1](https://raw.githubusercontent.com/petrzmax/CPO/master/results/1_Color.png)
 
-## 2. Convert color image to black and white
+### 2. Convert color image to black and white
 
 ![2](https://raw.githubusercontent.com/petrzmax/CPO/master/results/2_Black_and_white.png)
 
-## 3. Perform median filtration on the image
+### 3. Perform median filtration on the image
 
 ![3](https://raw.githubusercontent.com/petrzmax/CPO/master/results/3_after_median_filtration.png)
 
-## 4. Perform thresholding
+### 4. Perform thresholding
 
 ![4](https://raw.githubusercontent.com/petrzmax/CPO/master/results/4_after_threshold.png)
 
-## 5. Perform closing operation
+### 5. Perform closing operation
 
 ![5](https://raw.githubusercontent.com/petrzmax/CPO/master/results/5_after_closing_operation.png)
 
-## 6. Perform segmentation 
+### 6. Perform segmentation 
 
 ![6](https://raw.githubusercontent.com/petrzmax/CPO/master/results/6_after_segmentation.png)
 
-## 7. Recognize segments
+### 7. Recognize segments
 
 ![7](https://raw.githubusercontent.com/petrzmax/CPO/master/results/7_after_segmentation_with_recognized_segments.png)
 
-## 8. Show recognized segments with colors characteristic for them
+### 8. Show recognized segments with colors characteristic for them
 
 ![8](https://raw.githubusercontent.com/petrzmax/CPO/master/results/8_recognized_segments_with_characteristic_colors_only.png)
 
-## 9. Show the results
+### 9. Show the results
 
 ![9](https://raw.githubusercontent.com/petrzmax/CPO/master/results/results.png)
 
